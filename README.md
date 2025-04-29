@@ -1,3 +1,28 @@
+# Book Search Engine
+-[GitHub Repository](https://github.com/Liz-Melcher/BookSearchEngine)
+-Render Deployed Page
+
+## Description
+This project refactors a fully functional Google Books search engine, originally built with a RESTful API, into a GraphQL API using Apollo Server. Built with the MERN stack, the application allows users to search for books via the Google Books API and save their favorites to a MongoDB database.
+
+## Installation 
+```
+npm i 
+npm run build 
+npm run start
+```
+Client: 
+Make sure the vite.config file is set up for GraphQL, and not Rest API
+Server:
+Create a .env file that has a Mongo_DB URI, and a JWT secret key. 
+
+
+## License: 
+MIT License 
+
+## Contributions:
+There was starter code for this project that was refactored.  Original project instructions are below. 
+
 # 18 MERN: Book Search Engine
 
 ## Your Task
